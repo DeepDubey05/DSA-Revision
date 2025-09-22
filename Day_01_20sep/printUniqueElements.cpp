@@ -1,27 +1,20 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main()
-{
+int main(){
 
-    int arr[] = {1, 2, 2, 3, 3, 4, 5, 5, 6, 7};
+    int arr[] = {2,3,4,9,7,11,31,4,2,3};
 
-    int size = sizeof(arr) / sizeof(arr[0]);
+    int size = sizeof(arr)/sizeof(arr[0]);
 
-    int uniqueElement;
+    int count = 0;
 
-    for (int i = 0; i < size; i++)
-    { 
-        uniqueElement = arr[i];
+    for(int i = 0;i<size;i++){
 
-        for (int j = 0; j < size; j++)
-        {
-            if (uniqueElement == arr[j])
-            {
-                break;
-            }
-            else{
-                cout<<uniqueElement<<" ";
+        count = 0;
+        for(int j = 0; j<size;j++){
+
+            if(arr[j] == arr[j]){
             }
         }
     }
